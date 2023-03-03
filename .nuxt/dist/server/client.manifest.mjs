@@ -1,0 +1,1 @@
+export { default } from "file:///C:/xampp/htdocs/nuxt_workpro/nuxt_apk_workpro/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

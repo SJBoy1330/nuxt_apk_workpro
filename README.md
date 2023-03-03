@@ -1,1 +1,1 @@
-# nuxt_apk_workpro
+# nuxt_framework
