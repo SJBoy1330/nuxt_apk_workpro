@@ -1,5 +1,5 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-const base_url = 'http://localhost:3006/';
+const base_url = 'http://localhost:3001/';
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
