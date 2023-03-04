@@ -11,10 +11,61 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Framework dasar nuxt3 js alphatech' }
       ],
       link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons' }
+        { 
+          rel: 'stylesheet', 
+          href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
+        },
+        {
+          rel: 'stylesheet', 
+          href: base_url + 'assets/vendor/swiperjs-6.6.2/swiper-bundle.min.css'
+        },
+        {
+          rel: 'stylesheet', 
+          href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css'
+        },
+        { 
+          rel: 'stylesheet', 
+          href: base_url + 'assets/css/style.css'
+        },
+        { 
+          rel: "stylesheet",
+          href: "https://kit.fontawesome.com/b03824aa26.css"
+        }
       ],
       script: [
-        { src: base_url + 'assets/js/script' }
+        { 
+          src: base_url + 'assets/js/script' 
+        },
+        {
+          src: base_url + 'assets/js/jquery-3.3.1.min.js'
+        },
+        {
+          src: base_url + 'assets/js/popper.min.js'
+        },
+        {
+          src: base_url + 'assets/vendor/bootstrap-5/js/bootstrap.bundle.min.js'
+        },
+        {
+          src: base_url + 'assets/js/main.js'
+        },
+        {
+          src: base_url + 'assets/js/color-scheme.js'
+        },
+        {
+          src: base_url + 'assets/js/pwa-services.js',
+        },
+        {
+          src: base_url + 'assets/vendor/chart-js-3.3.1/chart.min.js'
+        },
+        {
+          src: base_url + 'assets/vendor/progressbar-js/progressbar.min.js'
+        },
+        {
+          src: base_url + 'assets/vendor/swiperjs-6.6.2/swiper-bundle.min.js'
+        },
+        {
+          src: base_url + 'assets/js/app.js'
+        }
       ]
     }
   },
