@@ -16261,6 +16261,11 @@ header.header.workpro{
   border-radius: 0px 0px 15px 15px;
 }
 
+header.header.workpro2{
+  background-color: #FFB600;
+  border-radius: 0px 0px 15px 15px;
+}
+
 .img-profile img{
   border-radius: 100%;
   width: 50px;
@@ -16355,4 +16360,35 @@ p.nominal-reimbursment{
 
 .avatar.bg-informasi{
   background-color: #FEF1CF;
+}
+
+.card.presensi{
+  background-color: #328BE0;
+  height: 165px;
+}
+
+.card.lembur{
+  background-color: #61CDE9;
+  height: 160px;
+}
+
+.card.reimburse{
+  background-color: #9ED093;
+  height: 160px;
+}
+
+.card.tukar-shift{
+  background-color: #FFB600;
+  height: 160px;
+}
+
+.card.izin-kerja{
+  background-color: #EF6B64;
+  height: 160px;
+}
+
+.nav.tablink{
+  height: 40px;
+  border-radius: 50px;
+  background-color: #F1F4F9;
 }

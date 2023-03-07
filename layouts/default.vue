@@ -1,7 +1,7 @@
 <template>
   <div>
     <main class="h-100">
-      <HeaderThemes />
+      <SecondHeaderThemes />
         <div class="container mx-auto mt-4">
           <slot />
         </div>

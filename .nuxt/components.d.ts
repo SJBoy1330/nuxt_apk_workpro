@@ -2,7 +2,8 @@
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     'FooterThemes': typeof import("../components/FooterThemes.vue")['default']
-    'HeaderThemes': typeof import("../components/HeaderThemes.vue")['default']
+    'MainHeaderThemes': typeof import("../components/MainHeaderThemes.vue")['default']
+    'SecondHeaderThemes': typeof import("../components/SecondHeaderThemes.vue")['default']
     'NuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
     'NuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
     'NuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -11,7 +12,8 @@ declare module '@vue/runtime-core' {
     'NuxtLink': typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
     'NuxtLoadingIndicator': typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']
     'LazyFooterThemes': typeof import("../components/FooterThemes.vue")['default']
-    'LazyHeaderThemes': typeof import("../components/HeaderThemes.vue")['default']
+    'LazyMainHeaderThemes': typeof import("../components/MainHeaderThemes.vue")['default']
+    'LazySecondHeaderThemes': typeof import("../components/SecondHeaderThemes.vue")['default']
     'LazyNuxtWelcome': typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
     'LazyNuxtLayout': typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
     'LazyNuxtErrorBoundary': typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -23,7 +25,8 @@ declare module '@vue/runtime-core' {
 }
 
 export const FooterThemes: typeof import("../components/FooterThemes.vue")['default']
-export const HeaderThemes: typeof import("../components/HeaderThemes.vue")['default']
+export const MainHeaderThemes: typeof import("../components/MainHeaderThemes.vue")['default']
+export const SecondHeaderThemes: typeof import("../components/SecondHeaderThemes.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const NuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']
@@ -32,7 +35,8 @@ export const ServerPlaceholder: typeof import("../node_modules/nuxt/dist/app/com
 export const NuxtLink: typeof import("../node_modules/nuxt/dist/app/components/nuxt-link")['default']
 export const NuxtLoadingIndicator: typeof import("../node_modules/nuxt/dist/app/components/nuxt-loading-indicator")['default']
 export const LazyFooterThemes: typeof import("../components/FooterThemes.vue")['default']
-export const LazyHeaderThemes: typeof import("../components/HeaderThemes.vue")['default']
+export const LazyMainHeaderThemes: typeof import("../components/MainHeaderThemes.vue")['default']
+export const LazySecondHeaderThemes: typeof import("../components/SecondHeaderThemes.vue")['default']
 export const LazyNuxtWelcome: typeof import("../node_modules/@nuxt/ui-templates/dist/templates/welcome.vue")['default']
 export const LazyNuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/layout")['default']
 export const LazyNuxtErrorBoundary: typeof import("../node_modules/nuxt/dist/app/components/nuxt-error-boundary")['default']

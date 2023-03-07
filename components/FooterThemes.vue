@@ -19,7 +19,7 @@
                     </NuxtLink>
                 </li>
                 <li class="nav-item">
-                    <NuxtLink class="nav-link mt-1" to="#">
+                    <NuxtLink class="nav-link mt-1" to="/riwayat">
                         <span>
                             <i class="fa-regular fa-notebook size-22"></i>
                             <span class="nav-text">Riwayat</span>
@@ -27,7 +27,7 @@
                     </NuxtLink>
                 </li>
                 <li class="nav-item">
-                    <NuxtLink class="nav-link mt-1" to="#">
+                    <NuxtLink class="nav-link mt-1" to="/profil">
                         <span>
                             <i class="fa-regular fa-circle-user size-22"></i>
                             <span class="nav-text">Profil</span>
