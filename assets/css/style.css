@@ -12475,7 +12475,8 @@ html.menu-open {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   overflow-y: auto;
@@ -13376,7 +13377,7 @@ linearGradient stop:last-child {
 }
 
 .header.active:after {
-  opacity: 0.95;
+  opacity: 0;
 }
 
 .header.active>* {
@@ -16251,7 +16252,7 @@ form input {
 }
 
 .footer .nav .nav-item .nav-link.active {
-  color: #EC3528;
+  color: #FFB600;
 }
 
 header.header.workpro{
@@ -16277,7 +16278,7 @@ header.header.workpro{
 }
 .card.rectangle-check{
   border-radius: 10px;
-  height: 70px;
+  height: 65px;
 }
 
 .avatar.ellipse-check{
@@ -16292,4 +16293,66 @@ header.header.workpro{
   height: 130px;
   width: 130px;
   border-radius: 100%;
+}
+
+.card.reimbursment{
+  border-radius: 15px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: repeat
+}
+
+p.reimbursment{
+  font-weight: 500;
+}
+
+p.nominal-reimbursment{
+  font-weight: 500;
+}
+
+.card.layanan-aplikasi{
+  border-radius: 8px;
+  height: auto;
+}
+
+.avatar.bg-lembur{
+  border-radius: 12px;
+  background-color: #E1EFFB;
+}
+
+.avatar.bg-kunjungan{
+  border-radius: 12px;
+  background-color: #F8DBE0;
+}
+
+.avatar.bg-prospek{
+  border-radius: 12px;
+  background-color: #FFF8CF;
+}
+
+.avatar.bg-reimburse{
+  border-radius: 12px;
+  background-color: #E3FFE4;
+}
+
+.avatar.bg-tukar-shift{
+  border-radius: 12px;
+  background-color: #FFDDCE;
+}
+
+.avatar.bg-libur{
+  border-radius: 12px;
+  background-color: #D3D3D3;
+}
+
+.text-detail{
+  color: #FF7918;
+}
+
+.card.informasi{
+  border-radius: 8px;
+}
+
+.avatar.bg-informasi{
+  background-color: #FEF1CF;
 }
