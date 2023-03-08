@@ -24,7 +24,7 @@
            <div class="col-6 pe-1">
                <NuxtLink class="card rectangle-check p-0" data-bs-toggle="offcanvas" to="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                    <div class="card-body">
-                       <div class="row">
+                        <div class="row">
                            <div class="col-auto ps-2">
                                <div class="avatar avatar-40 rounded-circle ellipse-check">
                                    <i class="fa-regular fa-person-to-portal fs-5" style="color: #FFB600;"></i>
@@ -37,7 +37,7 @@
                            <div class="col-auto ps-0">
                                <i class="fa-regular fa-chevron-right" style="color: #BABABA;"></i>
                            </div>
-                       </div>
+                        </div>
                    </div>
                </NuxtLink>
            </div>

@@ -12165,6 +12165,10 @@ fieldset:disabled .btn {
   line-height: 12px;
 }
 
+.size-11 {
+  font-size: 11px;
+}
+
 .size-12 {
   font-size: 12px;
 }
@@ -16391,4 +16395,200 @@ p.nominal-reimbursment{
   height: 40px;
   border-radius: 50px;
   background-color: #F1F4F9;
+}
+
+.card.card-riwayat{
+  height: 250px;
+}
+
+/* Style the tab */
+.tab {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  overflow: hidden;
+  background-color: #F1F4F9;
+  border-radius: 100px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px 12px;
+  transition: 0.3s;
+  font-size: 14px;
+  width: 175px;
+  color: #AAAAAA;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #FFFFFF;
+  width: 150px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #FFFFFF;
+  border-radius: 100px;
+  width: 175px;
+  color: #FFB600;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.line{
+  border-left: 2px solid #E1E1E1;
+  height: 70px;
+  left: 115px !important;
+}
+
+.card.detail-kehadiran{
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.circle-riwayat{
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}
+
+/* Style CSS for Calendar */
+.wrapper{
+  width: 100%;
+  background: trasparent;
+  border-radius: 10px;
+}
+.wrapper header{
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+header .icons{
+  display: flex;
+}
+header .icons span{
+  height: 38px;
+  width: 38px;
+  margin: 0 1px;
+  cursor: pointer;
+  color: #878787;
+  text-align: center;
+  line-height: 38px;
+  font-size: 1.9rem;
+  user-select: none;
+  border-radius: 50%;
+}
+.icons span:last-child{
+  margin-right: -10px;
+}
+header .icons span:hover{
+  background: #f2f2f2;
+}
+header .current-date{
+  font-size: 1.45rem;
+  font-weight: 500;
+}
+.calendar{
+  /* padding: 20px; */
+}
+.calendar ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+.calendar .days{
+  margin-bottom: 20px;
+}
+.calendar li{
+  color: #333;
+  width: calc(100% / 7);
+  font-size: 12px;
+}
+.calendar .weeks li{
+  font-weight: 500;
+  cursor: default;
+}
+.calendar .days li{
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30px;
+}
+.days li.inactive{
+  color: #aaa;
+}
+.days li.active{
+  color: #fff;
+}
+.days li::before{
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+.days li.active::before{
+  background: #9B59B6;
+}
+.days li:not(.active):hover::before{
+  background: #f2f2f2;
+}
+
+.ket-masuk{
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #59CE8F;
+}
+
+.ket-izin{
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #FF7918;
+}
+
+.ket-libur{
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #CDCDCD;
+}
+
+.ket-terlambat{
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #FFB600;
+}
+
+.ket-alpha{
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #FF1111;
+}
+
+.ket-no-data{
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #121212;
 }

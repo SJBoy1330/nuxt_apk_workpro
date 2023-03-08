@@ -53,6 +53,13 @@ export default defineNuxtConfig({
         },
         {
           src: base_url + 'assets/js/app.js'
+        },
+        {
+          src: base_url + 'assets/js/page/presensi.js'
+        },
+        {
+          src: base_url + 'assets/js/page/calendar.js', // calendar
+          defer: ''
         }
       ]
     }
