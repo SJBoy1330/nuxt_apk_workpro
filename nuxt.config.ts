@@ -49,19 +49,7 @@ export default defineNuxtConfig({
           src: base_url + 'assets/js/main.js'
         },
         {
-          src: base_url + 'assets/js/color-scheme.js'
-        },
-        {
           src: base_url + 'assets/js/pwa-services.js',
-        },
-        {
-          src: base_url + 'assets/vendor/chart-js-3.3.1/chart.min.js'
-        },
-        {
-          src: base_url + 'assets/vendor/progressbar-js/progressbar.min.js'
-        },
-        {
-          src: base_url + 'assets/vendor/swiperjs-6.6.2/swiper-bundle.min.js'
         },
         {
           src: base_url + 'assets/js/app.js'
