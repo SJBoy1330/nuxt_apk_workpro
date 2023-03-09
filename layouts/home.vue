@@ -2,7 +2,7 @@
   <div>
     <main class="h-100">
       <SecondHeaderThemes />
-      <div class="container mx-auto">
+      <div class="container mx-auto mt-4">
         <slot />
       </div>
       <FooterThemes />

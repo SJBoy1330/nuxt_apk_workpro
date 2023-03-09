@@ -16611,3 +16611,34 @@ header .current-date {
   border-radius: 3px;
   background-color: #121212;
 }
+
+.card.profil{
+  border-radius: 8px 8px 0px 0px;
+  box-shadow: none;
+  height: 250px;
+}
+
+.pic-profil{
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-cover: contain;
+}
+.btn-edit-profil{
+  background-color: #FFB600;
+  border-radius: 100px;
+  width: auto;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.card.full-ket{
+  background-color: #EFEFEF;
+  box-shadow: none;
+  border-radius: none !important;
+  height: auto;
+}
