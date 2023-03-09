@@ -3,7 +3,7 @@
         <div class="container">
             <ul class="nav nav-pills nav-justified">
                 <li class="nav-item">
-                    <NuxtLink class="nav-link mt-1  active" to="/">
+                    <NuxtLink class="nav-link mt-1" to="/">
                         <span>
                             <i class="fa-solid fa-house size-22"></i>
                             <span class="nav-text">Home</span>
@@ -42,4 +42,8 @@
 <script setup>
 </script>
 
-<style scoped></style>
+<style scoped>
+.router-link-exact-active {
+    color: #FFB600 !important;
+}
+</style>
