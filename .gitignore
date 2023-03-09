@@ -1,3 +1,8 @@
-*/.nuxt
+node_modules
+*.log*
 .nuxt
-.nuxt/tsconfig.json
+.nitro
+.cache
+.output
+.env
+dist
