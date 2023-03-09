@@ -1,5 +1,5 @@
 <template>
-    <div class="row mb-4">
+    <div class="row">
         <div class="col-12 mb-3">
             <div class="card profil">
                 <div class="card-body py-2">
@@ -8,7 +8,7 @@
                         <p class="text-center text-dark fw-medium size-18 mt-2">Jhon Doe</p>
                         <p class="text-center text-secondary size-18">HRD & Analyst</p>
 
-                        <NuxtLink class="btn-edit-profil my-2 px-3">
+                        <NuxtLink to="#" class="btn-edit-profil my-2 px-3">
                             <p class="fw-normal me-2">Edit Profil</p> 
                             <i class="fa-regular fa-chevron-right"></i>
                         </NuxtLink>
@@ -20,7 +20,7 @@
             </div>
             <div class="card" style="height: auto;">
                 <div class="card-body py-2">
-                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-3">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-globe size-20"></i>
                         </div>
@@ -30,8 +30,8 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
-                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                    </NuxtLink>
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-3">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-user-clock size-20"></i>
                         </div>
@@ -41,8 +41,8 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
-                    <div class="row d-flex justify-content-center align-items-center">
+                    </NuxtLink>
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-trash-list size-20"></i>
                         </div>
@@ -52,7 +52,7 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
+                    </NuxtLink>
                 </div>
             </div>
             <div class="card full-ket">
@@ -60,7 +60,7 @@
             </div>
             <div class="card" style="height: auto;">
                 <div class="card-body py-2">
-                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-3">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-headset size-20"></i>
                         </div>
@@ -70,8 +70,8 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
-                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                    </NuxtLink>
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-3">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-circle-info size-20"></i>
                         </div>
@@ -81,8 +81,8 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
-                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                    </NuxtLink>
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-3">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-book-open-reader size-20"></i>
                         </div>
@@ -92,8 +92,8 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
-                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                    </NuxtLink>
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-3">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-shield size-20"></i>
                         </div>
@@ -103,8 +103,8 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
-                    <div class="row d-flex justify-content-center align-items-center mb-3">
+                    </NuxtLink>
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-3">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-brands fa-teamspeak size-20"></i>
                         </div>
@@ -114,8 +114,8 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
-                    <div class="row d-flex justify-content-center align-items-center">
+                    </NuxtLink>
+                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-right-from-bracket size-20"></i>
                         </div>
@@ -125,7 +125,7 @@
                         <div class="col text-end">
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
-                    </div>
+                    </NuxtLink>
                 </div>
             </div>
         </div>

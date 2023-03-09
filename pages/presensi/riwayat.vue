@@ -195,7 +195,7 @@
                                 <p class="text-dark size-12 ms-2">Hari Libur</p>
                             </div>
 
-                            <div class="col d-flex align-items-center mt-2">
+                            <div class="col-auto d-flex align-items-center mt-2">
                                 <div class="ket-terlambat"></div>
                                 <p class="text-dark size-12 ms-2">Terlambat</p>
                             </div>

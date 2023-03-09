@@ -6186,7 +6186,7 @@ fieldset:disabled .btn {
 }
 
 .modal-backdrop.show {
-  opacity: 0.5;
+  opacity: 0.7 !important;
 }
 
 .modal-header {
@@ -12580,8 +12580,8 @@ main.bg-3 {
 
 .bg-theme,
 .modal-backdrop {
-  background: var(--finwallapp-theme-color) !important;
-  color: var(--finwallapp-theme-text) !important;
+  background: #121212 !important;
+  color: #121212 !important;
 }
 
 .border-dashed {
@@ -16260,6 +16260,15 @@ form input {
   color: #FFB600;
 }
 
+.auth-screen{
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-cover: contain;
+}
+
 header.header.workpro {
   background-color: #FFB600;
   height: 136px !important;
@@ -16614,7 +16623,6 @@ header .current-date {
 
 .card.profil{
   border-radius: 8px 8px 0px 0px;
-  box-shadow: none;
   height: 250px;
 }
 
