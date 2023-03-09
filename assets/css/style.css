@@ -15784,7 +15784,7 @@ main .row.h-100.landing-page {
   background-size: cover;
 }
 
-.element{
+.element {
   animation: roll 3s infinite;
   transform: rotate(30deg);
 }
@@ -15793,27 +15793,28 @@ main .row.h-100.landing-page {
   0% {
     transform: rotate(0);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
 
-.text-landing{
-  position: absolute; 
-  width: 100%; 
-  height:100px;
-  bottom:200px; 
+.text-landing {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 200px;
   text-align: center;
 }
 
-.wrapper-logo{
+.wrapper-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 85px;
   width: 85px;
   border-radius: 25px;
-  box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.1);
   animation: logos 2s infinite;
 }
 
@@ -15834,7 +15835,7 @@ main .row.h-100.landing-page {
   }
 }
 
-.title-landing{
+.title-landing {
   letter-spacing: 2px;
   font-size: 28px;
   font-weight: 700;
@@ -15888,7 +15889,7 @@ main .row.h-100.landing-page {
   background-color: #F5F5F5;
 }
 
-.form-select.form-select-pribadi{
+.form-select.form-select-pribadi {
   border-radius: 10px;
   height: 50px;
   background-color: #F5F5F5;
@@ -15918,7 +15919,7 @@ a.label-merah {
   color: #EC3528;
 }
 
-p.label-merah{
+p.label-merah {
   color: #EC3528;
 }
 
@@ -15931,7 +15932,7 @@ p.label-merah{
   width: 235px;
 }
 
-.btn-presensi{
+.btn-presensi {
   background-color: #EC3528;
   color: #FFFFFF;
   font-weight: 600;
@@ -16160,29 +16161,29 @@ form input {
 }
 
 /* Quick Link & Modal */
-.circle-bg-top{
-  border-radius: 100%; 
-  height: 25px; 
-  width: 25px; 
-  position: absolute; 
-  top: -5px; 
-  left: -5px; 
-  background-color: #F5f5f5; 
+.circle-bg-top {
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  background-color: #F5f5f5;
   opacity: 20%;
 }
 
-.circle-bg-bottom{
-  border-radius: 100%; 
-  height: 40px; 
-  width: 40px; 
-  position: absolute; 
-  bottom: -5px; 
-  right: -5px; 
-  background-color: #F5f5f5; 
+.circle-bg-bottom {
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background-color: #F5f5f5;
   opacity: 20%;
 }
 
-.notifikasi-chat{
+.notifikasi-chat {
   width: 17px;
   height: 17px;
   border-radius: 100%;
@@ -16194,7 +16195,7 @@ form input {
   z-index: 1;
 }
 
-.notifikasi-chat p{
+.notifikasi-chat p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16259,145 +16260,146 @@ form input {
   color: #FFB600;
 }
 
-header.header.workpro{
+header.header.workpro {
   background-color: #FFB600;
   height: 136px !important;
   border-radius: 0px 0px 15px 15px;
 }
 
-header.header.workpro2{
+header.header.workpro2 {
   background-color: #FFB600;
   border-radius: 0px 0px 15px 15px;
 }
 
-.img-profile img{
+.img-profile img {
   border-radius: 100%;
   width: 50px;
 }
 
-.ket-tebal{
+.ket-tebal {
   font-weight: bold;
   color: #121212;
 }
 
-.ket-tipis{
+.ket-tipis {
   font-size: 13px;
   font-weight: medium;
   color: #828282;
 }
-.card.rectangle-check{
+
+.card.rectangle-check {
   border-radius: 10px;
   height: 65px;
 }
 
-.avatar.ellipse-check{
+.avatar.ellipse-check {
   background-color: #FEF1CF;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.wrapper-fingerprint{
+.wrapper-fingerprint {
   background-color: #F7F7F7;
   height: 130px;
   width: 130px;
   border-radius: 100%;
 }
 
-.card.reimbursment{
+.card.reimbursment {
   border-radius: 15px;
   background-position: center center;
   background-size: cover;
   background-repeat: repeat
 }
 
-p.reimbursment{
+p.reimbursment {
   font-weight: 500;
 }
 
-p.nominal-reimbursment{
+p.nominal-reimbursment {
   font-weight: 500;
 }
 
-.card.layanan-aplikasi{
+.card.layanan-aplikasi {
   border-radius: 8px;
   height: auto;
 }
 
-.avatar.bg-lembur{
+.avatar.bg-lembur {
   border-radius: 12px;
   background-color: #E1EFFB;
 }
 
-.avatar.bg-kunjungan{
+.avatar.bg-kunjungan {
   border-radius: 12px;
   background-color: #F8DBE0;
 }
 
-.avatar.bg-prospek{
+.avatar.bg-prospek {
   border-radius: 12px;
   background-color: #FFF8CF;
 }
 
-.avatar.bg-reimburse{
+.avatar.bg-reimburse {
   border-radius: 12px;
   background-color: #E3FFE4;
 }
 
-.avatar.bg-tukar-shift{
+.avatar.bg-tukar-shift {
   border-radius: 12px;
   background-color: #FFDDCE;
 }
 
-.avatar.bg-libur{
+.avatar.bg-libur {
   border-radius: 12px;
   background-color: #D3D3D3;
 }
 
-.text-detail{
+.text-detail {
   color: #FF7918;
 }
 
-.card.informasi{
+.card.informasi {
   border-radius: 8px;
 }
 
-.avatar.bg-informasi{
+.avatar.bg-informasi {
   background-color: #FEF1CF;
 }
 
-.card.presensi{
+.card.presensi {
   background-color: #328BE0;
   height: 165px;
 }
 
-.card.lembur{
+.card.lembur {
   background-color: #61CDE9;
   height: 160px;
 }
 
-.card.reimburse{
+.card.reimburse {
   background-color: #9ED093;
   height: 160px;
 }
 
-.card.tukar-shift{
+.card.tukar-shift {
   background-color: #FFB600;
   height: 160px;
 }
 
-.card.izin-kerja{
+.card.izin-kerja {
   background-color: #EF6B64;
   height: 160px;
 }
 
-.nav.tablink{
+.nav.tablink {
   height: 40px;
   border-radius: 50px;
   background-color: #F1F4F9;
 }
 
-.card.card-riwayat{
+.card.card-riwayat {
   height: 250px;
 }
 
@@ -16405,7 +16407,7 @@ p.nominal-reimbursment{
 .tab {
   display: flex;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
   overflow: hidden;
   background-color: #F1F4F9;
   border-radius: 100px;
@@ -16446,39 +16448,42 @@ p.nominal-reimbursment{
   border-top: none;
 }
 
-.line{
+.line {
   border-left: 2px solid #E1E1E1;
   height: 70px;
   left: 115px !important;
 }
 
-.card.detail-kehadiran{
+.card.detail-kehadiran {
   border-radius: 10px;
   background-color: transparent;
 }
 
-.circle-riwayat{
+.circle-riwayat {
   border-radius: 100%;
   width: 25px;
   height: 25px;
 }
 
 /* Style CSS for Calendar */
-.wrapper{
+.wrapper {
   width: 100%;
   background: trasparent;
   border-radius: 10px;
 }
-.wrapper header{
+
+.wrapper header {
   display: flex;
   align-items: center;
   padding: 5px 10px;
   justify-content: space-between;
 }
-header .icons{
+
+header .icons {
   display: flex;
 }
-header .icons span{
+
+header .icons span {
   height: 38px;
   width: 38px;
   margin: 0 1px;
@@ -16490,50 +16495,62 @@ header .icons span{
   user-select: none;
   border-radius: 50%;
 }
-.icons span:last-child{
+
+.icons span:last-child {
   margin-right: -10px;
 }
-header .icons span:hover{
+
+header .icons span:hover {
   background: #f2f2f2;
 }
-header .current-date{
+
+header .current-date {
   font-size: 1.45rem;
   font-weight: 500;
 }
-.calendar{
+
+.calendar {
   /* padding: 20px; */
 }
-.calendar ul{
+
+.calendar ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   text-align: center;
 }
-.calendar .days{
+
+.calendar .days {
   margin-bottom: 20px;
 }
-.calendar li{
+
+.calendar li {
   color: #333;
   width: calc(100% / 7);
   font-size: 12px;
 }
-.calendar .weeks li{
+
+.calendar .weeks li {
   font-weight: 500;
   cursor: default;
 }
-.calendar .days li{
+
+.calendar .days li {
   z-index: 1;
   cursor: pointer;
   position: relative;
   margin-top: 30px;
 }
-.days li.inactive{
+
+.days li.inactive {
   color: #aaa;
 }
-.days li.active{
+
+.days li.active {
   color: #fff;
 }
-.days li::before{
+
+.days li::before {
   position: absolute;
   content: "";
   left: 50%;
@@ -16544,49 +16561,51 @@ header .current-date{
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
-.days li.active::before{
-  background: #9B59B6;
+
+.days li.active::before {
+  background: #FFB600;
 }
-.days li:not(.active):hover::before{
+
+.days li:not(.active):hover::before {
   background: #f2f2f2;
 }
 
-.ket-masuk{
+.ket-masuk {
   width: 15px;
   height: 15px;
   border-radius: 3px;
   background-color: #59CE8F;
 }
 
-.ket-izin{
+.ket-izin {
   width: 15px;
   height: 15px;
   border-radius: 3px;
   background-color: #FF7918;
 }
 
-.ket-libur{
+.ket-libur {
   width: 15px;
   height: 15px;
   border-radius: 3px;
   background-color: #CDCDCD;
 }
 
-.ket-terlambat{
+.ket-terlambat {
   width: 15px;
   height: 15px;
   border-radius: 3px;
   background-color: #FFB600;
 }
 
-.ket-alpha{
+.ket-alpha {
   width: 15px;
   height: 15px;
   border-radius: 3px;
   background-color: #FF1111;
 }
 
-.ket-no-data{
+.ket-no-data {
   width: 15px;
   height: 15px;
   border-radius: 3px;

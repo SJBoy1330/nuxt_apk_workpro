@@ -19,7 +19,7 @@
                     </NuxtLink>
                 </li>
                 <li class="nav-item">
-                    <NuxtLink class="nav-link mt-1" to="/riwayat">
+                    <NuxtLink class="nav-link mt-1" to="/presensi/riwayat">
                         <span>
                             <i class="fa-regular fa-notebook size-22"></i>
                             <span class="nav-text">Riwayat</span>
@@ -42,6 +42,4 @@
 <script setup>
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,7 +1,8 @@
 <template>
     <div class="row mb-4">
         <div class="col-12">
-            <div class="card overflow-hidden reimbursment" style="background-image: url(&quot;assets/img/background-reimbursment.png&quot;);">
+            <div class="card overflow-hidden reimbursment"
+                style="background-image: url(&quot;assets/img/background-reimbursment.png&quot;);">
                 <div class="card-body py-2">
                     <div class="row">
                         <div class="col-auto ps-1">
@@ -144,7 +145,7 @@
                             <p class="text-muted size-12">12 Agustus 2023</p>
                         </div>
                         <div class="col-auto align-self-center">
-                        <i class="fa-regular fa-chevron-right" style="color: #BABABA;"></i>
+                            <i class="fa-regular fa-chevron-right" style="color: #BABABA;"></i>
                         </div>
                     </div>
                 </div>
@@ -164,7 +165,7 @@
                             <p class="text-muted size-12">13 Agustus 2023</p>
                         </div>
                         <div class="col-auto align-self-center">
-                        <i class="fa-regular fa-chevron-right" style="color: #BABABA;"></i>
+                            <i class="fa-regular fa-chevron-right" style="color: #BABABA;"></i>
                         </div>
                     </div>
                 </div>
@@ -184,22 +185,23 @@
                             <p class="text-muted size-12">14 Agustus 2023</p>
                         </div>
                         <div class="col-auto align-self-center">
-                        <i class="fa-regular fa-chevron-right" style="color: #BABABA;"></i>
+                            <i class="fa-regular fa-chevron-right" style="color: #BABABA;"></i>
                         </div>
                     </div>
                 </div>
             </NuxtLink>
         </div>
     </div>
-  <!-- <button onclick="js_create('click')">CEK</button> -->
+    <!-- <button onclick="js_create('click')">CEK</button> -->
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
 
 <script setup>
 const { urlBase } = useRuntimeConfig()
+definePageMeta({
+    layout: "home",
+})
 // const a = publicAssetsURL('css');
 // console.log(a);
 </script>

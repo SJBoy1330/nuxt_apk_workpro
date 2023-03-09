@@ -1,5 +1,5 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-const base_url = 'http://localhost:3001/';
+const base_url = 'http://localhost:3002/';
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
@@ -33,9 +33,7 @@ export default defineNuxtConfig({
         }
       ],
       script: [
-        {
-          src: base_url + 'assets/js/script'
-        },
+
         {
           src: base_url + 'assets/js/jquery-3.3.1.min.js'
         },
@@ -56,6 +54,9 @@ export default defineNuxtConfig({
         },
         {
           src: base_url + 'assets/js/page/presensi.js'
+        },
+        {
+          src: base_url + 'assets/js/script.js'
         },
         {
           src: base_url + 'assets/js/page/calendar.js', // calendar

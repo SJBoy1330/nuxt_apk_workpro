@@ -1,5 +1,5 @@
 <template>
-   <div class="row mb-4">
+    <div class="row mb-4">
         <div class="col-12 mb-3">
             <NuxtLink class="card overflow-hidden presensi" to="/detail_persetujuan">
                 <img src="~/assets/img/vector-presensi.png" class="position-absolute bottom-0 right-0" width="164">
@@ -81,12 +81,7 @@
     </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
 
 <script setup>
-    definePageMeta({
-        layout: "second",
-    })
 </script>
