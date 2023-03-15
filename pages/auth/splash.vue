@@ -1,6 +1,6 @@
 <template>
     <div class="auth-screen" 
-    style="background-image: url(&quot;assets/img/rectangle-login.png&quot;);"></div>
+    style="background-image: url(&quot;assets/img/splash-screen.png&quot;);"></div>
 </template>
 
 <style scoped></style>

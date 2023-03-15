@@ -8333,7 +8333,7 @@ fieldset:disabled .btn {
 
 /* rtl:end:remove */
 .text-primary {
-  color: #3c63e2 !important;
+  color: #0085FF !important;
 }
 
 .text-secondary {
@@ -16650,3 +16650,28 @@ header .current-date {
   border-radius: none !important;
   height: auto;
 }
+
+.wrapper-login{
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  box-shadow: 3px 0px 34px -7px rgba(0,0,0,0.09);
+  -webkit-box-shadow: 3px 0px 34px -7px rgba(0,0,0,0.09);
+  -moz-box-shadow: 3px 0px 34px -7px rgba(0,0,0,0.09);
+}
+
+.one, .two::placeholder{
+  font-weight: 300;
+  font-size: 14px;
+}
+
+form input{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #FFB600;
+}
+
