@@ -51,7 +51,7 @@
                         <NuxtLink to="/auth/lupakatasandi" class="text-primary size-12"> Lupa kata sandi? </NuxtLink>
                     </div>
                     <div class="mb-4">
-                        <NuxtLink
+                        <NuxtLink to="/"
                         class="btn btn-default btn-lg mt-4 px-4 shadow-sm d-flex justify-content-center align-items-center"
                         style="width: 100%; height: 30px; background-color: #FFB600;">Login</NuxtLink>
                         <p class="text-center size-12 mt-2">Dengan masuk dan mendaftar, kamu menyetujui <span class="text-primary">Ketentuan Layanan</span> dan <span class="text-primary">Kebijakan Privasi</span></p>
