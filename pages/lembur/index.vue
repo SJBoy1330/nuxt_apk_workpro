@@ -14,11 +14,11 @@
                 <div class="col-12">
                     <div class="mb-3">
                         <label class="form-label fw-medium">Tanggal Mulai <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control form-control-solid form-control-workpro border-0 one" placeholder="Masukkan tanggal mulai">
+                        <input type="date" class="form-control form-control-solid form-control-workpro border-0 one" placeholder="Masukkan tanggal mulai">
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-medium">Tanggal Selesai <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control form-control-solid form-control-workpro border-0 one" placeholder="Masukkan tanggal selesai">
+                        <input type="date" class="form-control form-control-solid form-control-workpro border-0 one" placeholder="Masukkan tanggal selesai">
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-medium">Alasan <span class="text-danger">*</span></label>
@@ -26,10 +26,22 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-medium">Bukti Pendukung <span class="text-danger">*</span></label>
-                        
+                        <div class="upload__box">
+                            <div class="upload__btn-box">
+                                <label class="upload__btn">
+                                <p class="text-center fw-light" style="width: 200px;">Letakkan gambar Anda di sini atau <span class="fw-medium text-warning">jelajahi</span></p>
+                                <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
+                                </label>
+                            </div>
+                            <div class="upload__img-wrap"></div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="offcanvas-footer p-3">
+            <NuxtLink to="/" class="btn btn-default btn-lg mt-4 px-4 shadow-sm d-flex justify-content-center align-items-center" 
+            style="width: 100%; height: 30px; background-color: #FFB600;">Kirim</NuxtLink>
         </div>
     </div>
 
