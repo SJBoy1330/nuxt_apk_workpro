@@ -23,3 +23,5 @@ function openCity(element, cityName) {
     // evt.currentTarget.className += " active";
 }
 
+
+

@@ -4,7 +4,7 @@
             <div class="card card-riwayat mb-4">
                 <div class="card-body py-2">
                     <div class="row">
-                        <p class="text-center text-secondary size-16 mb-3">LEMBUR</p>
+                        <p class="text-center text-secondary size-16 mb-3">KUNJUNGAN</p>
                         <!-- Tab links -->
                         <div class="tab">
                             <button class="tab tablinks my-2 active" id="tabMasuk" onclick="openCity(this, 'Masuk')"

@@ -5,8 +5,8 @@
         <div class="row">
             <div class="col-auto">
                 <div class="ms-2 mt-3 d-flex justify-content-center align-items-center">
-                        <i class="fa-solid fa-chevron-left"></i>
-                        <p class="ms-2 fw-medium">Persetujuan</p>
+                    <a @click="$router.go(-1)" class="fa-solid fa-chevron-left"></a>
+                    <p class="ms-2 fw-medium">Persetujuan</p>
                 </div>
             </div>
             <div class="col text-center"></div>
@@ -22,6 +22,7 @@
 </template>
 
 <script setup>
+
 </script>
 
 <style scoped></style>

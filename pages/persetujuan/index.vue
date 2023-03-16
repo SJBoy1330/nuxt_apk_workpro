@@ -84,4 +84,5 @@
 <style scoped></style>
 
 <script setup>
+const title_page = 'Persetujuan';
 </script>

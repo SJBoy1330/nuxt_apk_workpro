@@ -11,7 +11,7 @@
 </template>
   
 <script setup>
-
+console.log('ok');
 </script>
   
 <style scoped>
