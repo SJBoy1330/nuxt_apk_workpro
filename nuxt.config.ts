@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         {
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        }
+        },
       ],
       script: [
 
@@ -61,6 +61,9 @@ export default defineNuxtConfig({
         {
           src: base_url + 'assets/js/page/calendar.js', // calendar
           defer: ''
+        },
+        {
+          src: 'https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.3.5/signature_pad.min.js'
         }
       ]
     }
