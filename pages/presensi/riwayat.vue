@@ -150,7 +150,7 @@
                     </div>
                     <div class="row mt-3">
                         <div class="col-12 px-0">
-                            <div class="wrapper">
+                            <div class="wrapper border-0">
                                 <header>
                                     <p class="current-date"></p>
                                     <div class="icons">
@@ -175,36 +175,35 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row d-flex flex-column">
-                        <div class="col">
+                    <div class="row mx-0">
+                        <div class="col px-0">
                             <p class="text-dark fw-medium size-16">Keterangan</p>
                         </div>
-                        <div class="row mt-2 pe-0">
-                            <div class="col d-flex align-items-center mt-2">
-                                <div class="ket-masuk"></div>
-                                <p class="text-dark size-12 ms-2">Masuk</p>
-                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 d-flex align-items-center mt-2">
+                            <div class="ket-masuk"></div>
+                            <p class="text-dark size-12 ms-2">Masuk</p>
+                        </div>
 
-                            <div class="col d-flex align-items-center mt-2">
-                                <div class="ket-izin"></div>
-                                <p class="text-dark size-12 ms-2">Izin</p>
-                            </div>
+                        <div class="col-4 d-flex align-items-center mt-2">
+                            <div class="ket-izin"></div>
+                            <p class="text-dark size-12 ms-2">Izin</p>
+                        </div>
 
-                            <div class="col d-flex align-items-center mt-2">
-                                <div class="ket-libur"></div>
-                                <p class="text-dark size-12 ms-2">Hari Libur</p>
-                            </div>
+                        <div class="col-4 d-flex align-items-center mt-2">
+                            <div class="ket-libur"></div>
+                            <p class="text-dark size-12 ms-2">Hari Libur</p>
+                        </div>
 
-                            <div class="col-auto d-flex align-items-center mt-2">
-                                <div class="ket-terlambat"></div>
-                                <p class="text-dark size-12 ms-2">Terlambat</p>
-                            </div>
+                        <div class="col-4 d-flex align-items-center mt-2">
+                            <div class="ket-terlambat"></div>
+                            <p class="text-dark size-12 ms-2">Terlambat</p>
+                        </div>
 
-                            <div class="col d-flex align-items-center mt-2">
-                                <div class="ket-alpha"></div>
-                                <p class="text-dark size-12 ms-2">Alpha</p>
-                            </div>
-
+                        <div class="col-4 d-flex align-items-center mt-2">
+                            <div class="ket-alpha"></div>
+                            <p class="text-dark size-12 ms-2">Alpha</p>
                         </div>
                     </div>
                 </div>
