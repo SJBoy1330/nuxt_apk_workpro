@@ -25,3 +25,6 @@ function openCity(element, cityName) {
 
 
 
+function change_title(param) {
+    console.log(param);
+}

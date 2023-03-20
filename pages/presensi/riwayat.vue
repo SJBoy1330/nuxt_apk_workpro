@@ -215,5 +215,22 @@
 <style scoped></style>
  
 <script setup>
-// document.getElementById("tabOpen").click;
+useHead({
+    title: 'Riwayat',
+    meta: {
+        title: 'Riwayat'
+    },
+    link: [
+        {
+            rel: 'stylesheet',
+            href: '/assets/css/calendar.css'
+        },
+    ],
+    script: [
+        {
+            src: '/assets/js/page/calendar.js', // calendar
+            defer: ''
+        }
+    ]
+})
 </script>

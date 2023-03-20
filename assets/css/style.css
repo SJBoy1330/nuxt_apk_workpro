@@ -16260,7 +16260,7 @@ form input {
   color: #FFB600;
 }
 
-.auth-screen{
+.auth-screen {
   width: 100vw;
   height: 100vh;
   background-position: center;
@@ -16480,159 +16480,13 @@ p.nominal-reimbursment {
   height: 25px;
 }
 
-/* Style CSS for Calendar */
-.wrapper {
-  width: 100%;
-  background: trasparent;
-  border-radius: 10px;
-}
 
-.wrapper header {
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-  justify-content: space-between;
-}
-
-header .icons {
-  display: flex;
-}
-
-header .icons span {
-  height: 38px;
-  width: 38px;
-  margin: 0 1px;
-  cursor: pointer;
-  color: #878787;
-  text-align: center;
-  line-height: 38px;
-  font-size: 1.9rem;
-  user-select: none;
-  border-radius: 50%;
-}
-
-.icons span:last-child {
-  margin-right: -10px;
-}
-
-header .icons span:hover {
-  background: #f2f2f2;
-}
-
-header .current-date {
-  font-size: 1.45rem;
-  font-weight: 500;
-}
-
-.calendar {
-  /* padding: 20px; */
-}
-
-.calendar ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  text-align: center;
-}
-
-.calendar .days {
-  margin-bottom: 20px;
-}
-
-.calendar li {
-  color: #333;
-  width: calc(100% / 7);
-  font-size: 12px;
-}
-
-.calendar .weeks li {
-  font-weight: 500;
-  cursor: default;
-}
-
-.calendar .days li {
-  z-index: 1;
-  cursor: pointer;
-  position: relative;
-  margin-top: 30px;
-}
-
-.days li.inactive {
-  color: #aaa;
-}
-
-.days li.active {
-  color: #fff;
-}
-
-.days li::before {
-  position: absolute;
-  content: "";
-  left: 50%;
-  top: 50%;
-  height: 40px;
-  width: 40px;
-  z-index: -1;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.days li.active::before {
-  background: #FFB600;
-}
-
-.days li:not(.active):hover::before {
-  background: #f2f2f2;
-}
-
-.ket-masuk {
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
-  background-color: #59CE8F;
-}
-
-.ket-izin {
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
-  background-color: #FF7918;
-}
-
-.ket-libur {
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
-  background-color: #CDCDCD;
-}
-
-.ket-terlambat {
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
-  background-color: #FFB600;
-}
-
-.ket-alpha {
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
-  background-color: #FF1111;
-}
-
-.ket-no-data {
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
-  background-color: #121212;
-}
-
-.card.profil{
+.card.profil {
   border-radius: 8px 8px 0px 0px;
   height: 250px;
 }
 
-.pic-profil{
+.pic-profil {
   width: 75px;
   height: 75px;
   border-radius: 100%;
@@ -16641,7 +16495,8 @@ header .current-date {
   background-size: cover;
   background-cover: contain;
 }
-.btn-edit-profil{
+
+.btn-edit-profil {
   background-color: #FFB600;
   border-radius: 100px;
   width: auto;
@@ -16650,29 +16505,30 @@ header .current-date {
   align-items: center;
 }
 
-.card.full-ket{
+.card.full-ket {
   background-color: #EFEFEF;
   box-shadow: none;
   border-radius: none !important;
   height: auto;
 }
 
-.wrapper-login{
+.wrapper-login {
   width: 100%;
   height: auto;
   border-radius: 25px;
   background-color: #FFFFFF;
-  box-shadow: 3px 0px 34px -7px rgba(0,0,0,0.09);
-  -webkit-box-shadow: 3px 0px 34px -7px rgba(0,0,0,0.09);
-  -moz-box-shadow: 3px 0px 34px -7px rgba(0,0,0,0.09);
+  box-shadow: 3px 0px 34px -7px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 3px 0px 34px -7px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 3px 0px 34px -7px rgba(0, 0, 0, 0.09);
 }
 
-.one, .two::placeholder{
+.one,
+.two::placeholder {
   font-weight: 300;
   font-size: 14px;
 }
 
-form input{
+form input {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -16682,7 +16538,7 @@ form input{
 }
 
 /* Button Next & Previous */
-.previous-next-btn{
+.previous-next-btn {
   width: 40px;
   height: 40px;
   border-radius: 100%;
@@ -16690,12 +16546,12 @@ form input{
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 13px -1px rgba(160,160,160,0.5);
-  -webkit-box-shadow: 0px 0px 13px -1px rgba(160,160,160,0.5);
-  -moz-box-shadow: 0px 0px 13px -1px rgba(160,160,160,0.5);
+  box-shadow: 0px 0px 13px -1px rgba(160, 160, 160, 0.5);
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(160, 160, 160, 0.5);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(160, 160, 160, 0.5);
 }
 
-.wrapper-tanggal{
+.wrapper-tanggal {
   width: 175px;
   height: 40px;
   border-radius: 25px;
@@ -16703,16 +16559,16 @@ form input{
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 13px -1px rgba(160,160,160,0.5);
-  -webkit-box-shadow: 0px 0px 13px -1px rgba(160,160,160,0.5);
-  -moz-box-shadow: 0px 0px 13px -1px rgba(160,160,160,0.5);
+  box-shadow: 0px 0px 13px -1px rgba(160, 160, 160, 0.5);
+  -webkit-box-shadow: 0px 0px 13px -1px rgba(160, 160, 160, 0.5);
+  -moz-box-shadow: 0px 0px 13px -1px rgba(160, 160, 160, 0.5);
 }
 
-.card-lembur{
+.card-lembur {
   min-height: 500px !important;
 }
 
-button.btn.btn-tambah{
+button.btn.btn-tambah {
   width: 60px;
   height: 60px;
   border-radius: 100px;
@@ -16726,26 +16582,26 @@ button.btn.btn-tambah{
   align-items: center
 }
 
-input.form-control.form-control-solid.form-control-workpro{
+input.form-control.form-control-solid.form-control-workpro {
   background-color: #FFF8E5;
   border-radius: 5px;
   height: 35px;
 }
 
-input.form-control.form-control-solid.form-control-pencarian{
+input.form-control.form-control-solid.form-control-pencarian {
   background-color: #F1F4F9;
   border-radius: 8px 0px 0px 8px;
   height: 35px;
   width: 100%;
 }
 
-textarea.form-control.form-control-solid.form-control-workpro-textarea{
+textarea.form-control.form-control-solid.form-control-workpro-textarea {
   background-color: #FFF8E5;
   border-radius: 5px;
   height: 150px;
 }
 
-select.form-select.form-select-solid.form-select-workpro.one{
+select.form-select.form-select-solid.form-select-workpro.one {
   background-color: #FFF8E5;
   border-radius: 5px;
   height: 35px;
@@ -16754,6 +16610,7 @@ select.form-select.form-select-solid.form-select-workpro.one{
 .upload__box {
   padding: 0px;
 }
+
 .upload__inputfile {
   width: 0.1px;
   height: 0.1px;
@@ -16762,6 +16619,7 @@ select.form-select.form-select-solid.form-select-workpro.one{
   position: absolute;
   z-index: -1;
 }
+
 .upload__btn {
   display: flex;
   justify-content: center;
@@ -16784,9 +16642,11 @@ select.form-select.form-select-solid.form-select-workpro.one{
 .upload__btn:hover {
   background-color: #FFF8E5;
 }
+
 .upload__btn-box {
   margin-bottom: 10px;
 }
+
 .upload__img-wrap {
   display: flex;
   justify-content: center;
@@ -16794,11 +16654,13 @@ select.form-select.form-select-solid.form-select-workpro.one{
   flex-wrap: wrap;
   margin: 0 -10px;
 }
+
 .upload__img-box {
   width: 115px;
   padding: 0 10px;
   margin-bottom: 12px;
 }
+
 .upload__img-close {
   width: 24px;
   height: 24px;
@@ -16812,6 +16674,7 @@ select.form-select.form-select-solid.form-select-workpro.one{
   z-index: 1;
   cursor: pointer;
 }
+
 .upload__img-close:after {
   content: "✖";
   font-size: 14px;
@@ -16828,34 +16691,38 @@ select.form-select.form-select-solid.form-select-workpro.one{
 }
 
 /* Maps Location */
-.map-container{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
   border-radius: 8px;
 }
-.map-container iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .flex-row {
   display: flex;
 }
+
 .wrapper {
   border: 1px solid #4b00ff;
   border-right: 0;
 }
+
 canvas#signature-pad {
   background: #fff;
   width: 100%;
   height: 100%;
   cursor: crosshair;
 }
+
 button#clear {
   height: 100%;
   background: #4b00ff;
@@ -16864,12 +16731,13 @@ button#clear {
   font-weight: 600;
   cursor: pointer;
 }
+
 button#clear span {
   transform: rotate(90deg);
   display: block;
 }
 
-button.btn.btn-filter{
+button.btn.btn-filter {
   width: 35px;
   height: 35px;
   border-radius: 8px !important;

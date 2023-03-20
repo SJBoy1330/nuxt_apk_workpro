@@ -20,7 +20,7 @@ import { hash } from 'file://C:/xampp/htdocs/nuxt_workpro/nuxt_apk_workpro/node_
 import { createStorage } from 'file://C:/xampp/htdocs/nuxt_workpro/nuxt_apk_workpro/node_modules/unstorage/dist/index.mjs';
 import unstorage_47drivers_47fs from 'file://C:/xampp/htdocs/nuxt_workpro/nuxt_apk_workpro/node_modules/unstorage/dist/drivers/fs.mjs';
 
-const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routes":{},"envPrefix":"NUXT_"},"public":{},"apiBase":"http://api.workpro.id/","urlBase":"http://localhost:3002/"};
+const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"routes":{},"envPrefix":"NUXT_"},"base_url":"http://localhost:3002/","public":{"base_url":"http://localhost:3002/"}};
 const ENV_PREFIX = "NITRO_";
 const ENV_PREFIX_ALT = _runtimeConfig.nitro.envPrefix ?? process.env.NITRO_ENV_PREFIX ?? "_";
 const getEnv = (key) => {

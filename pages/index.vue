@@ -42,7 +42,7 @@
             </NuxtLink>
         </div>
         <div class="col-6 col-md-6 col-lg-4 ps-2">
-            <NuxtLink to="/kunjungan/riwayat_kunjungan" class="card mb-3 layanan-aplikasi">
+            <NuxtLink to="/kunjungan" class="card mb-3 layanan-aplikasi">
                 <div class="card-body py-0">
                     <div class="row flex-column">
                         <div class="col ps-0">

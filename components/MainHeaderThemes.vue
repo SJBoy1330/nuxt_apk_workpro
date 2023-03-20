@@ -6,7 +6,7 @@
             <div class="col-auto">
                 <div class="ms-2 mt-3 d-flex justify-content-center align-items-center">
                     <a @click="$router.go(-1)" class="fa-solid fa-chevron-left"></a>
-                    <p class="ms-2 fw-medium">Persetujuan</p>
+                    <p class="ms-2 fw-medium" id="page_title">PAGE TITLE</p>
                 </div>
             </div>
             <div class="col text-center"></div>
@@ -21,7 +21,7 @@
     </header>
 </template>
 
-<script setup>
+<script>
 
 </script>
 

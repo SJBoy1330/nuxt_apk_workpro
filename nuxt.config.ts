@@ -1,9 +1,14 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
-const base_url = 'http://localhost:3002/';
+import { GlobalSettings } from "./environmentsetting";
+const appEnv = process.env.NODE_ENV || 'development';
+const base_url = GlobalSettings[appEnv].base_url;
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
+  publicRuntimeConfig: {
+    base_url: GlobalSettings[appEnv].base_url
+  },
   app: {
     head: {
       title: 'Framework Nuxt JS Custom',
@@ -53,24 +58,9 @@ export default defineNuxtConfig({
           src: base_url + 'assets/js/app.js'
         },
         {
-          src: base_url + 'assets/js/page/presensi.js'
-        },
-        {
           src: base_url + 'assets/js/script.js'
-        },
-        {
-          src: base_url + 'assets/js/page/calendar.js', // calendar
-          defer: ''
-        },
-        {
-          src: 'https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.3.5/signature_pad.min.js'
         }
       ]
     }
-  },
-  runtimeConfig: {
-    currencyKey: process.env.CURRENCY_API_KEY,
-    apiBase: 'http://api.workpro.id/',
-    urlBase: base_url
   }
 })
