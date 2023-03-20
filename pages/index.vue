@@ -74,7 +74,7 @@
             </NuxtLink>
         </div>
         <div class="col-6 col-md-6 col-lg-4 ps-2">
-            <NuxtLink to="#" class="card mb-3 layanan-aplikasi">
+            <NuxtLink to="/reimburse" class="card mb-3 layanan-aplikasi">
                 <div class="card-body py-0">
                     <div class="row flex-column">
                         <div class="col ps-0">
@@ -90,7 +90,7 @@
             </NuxtLink>
         </div>
         <div class="col-6 col-md-6 col-lg-4 pe-2">
-            <NuxtLink to="#" class="card mb-3 layanan-aplikasi">
+            <NuxtLink to="/tukarshift" class="card mb-3 layanan-aplikasi">
                 <div class="card-body py-0">
                     <div class="row flex-column">
                         <div class="col ps-0">
@@ -99,14 +99,14 @@
                             </div>
                         </div>
                         <div class="col ps-0">
-                            <p class=" mt-2 fw-medium">Prospek Kerja</p>
+                            <p class=" mt-2 fw-medium">Tukar Shift</p>
                         </div>
                     </div>
                 </div>
             </NuxtLink>
         </div>
         <div class="col-6 col-md-6 col-lg-4 ps-2">
-            <NuxtLink to="#" class="card mb-3 layanan-aplikasi">
+            <NuxtLink to="/izinlibur" class="card mb-3 layanan-aplikasi">
                 <div class="card-body py-0">
                     <div class="row flex-column">
                         <div class="col ps-0">

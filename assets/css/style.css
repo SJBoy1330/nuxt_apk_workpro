@@ -16422,6 +16422,12 @@ p.nominal-reimbursment {
   border-radius: 100px;
 }
 
+.tab .table-responsive.tukar-shift{
+  height: 62px !important; 
+  overflow-y: hidden; 
+  border-radius: 100px;
+}
+
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;

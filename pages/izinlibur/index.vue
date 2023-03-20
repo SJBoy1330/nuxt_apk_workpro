@@ -13,16 +13,25 @@
             <div class="row">
                 <div class="col-12">
                     <div class="mb-3">
-                        <label class="form-label fw-medium">Tanggal Mulai <span class="text-danger">*</span></label>
+                        <label class="form-label fw-medium">Jenis Pengajuan<span class="text-danger">*</span></label>
+                        <select class="form-select form-select-solid form-select-workpro border-0 one">
+                            <option selected>Pilih jenis pengajuan</option>
+                            <option value="1">Keluarga</option>
+                            <option value="2">Izin</option>
+                            <option value="3">Sakit</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label fw-medium">Tanggal Mulai<span class="text-danger">*</span></label>
                         <input type="date" class="form-control form-control-solid form-control-workpro border-0 one" placeholder="Masukkan tanggal mulai">
                     </div>
                     <div class="mb-3">
-                        <label class="form-label fw-medium">Tanggal Selesai <span class="text-danger">*</span></label>
+                        <label class="form-label fw-medium">Tanggal Selesai<span class="text-danger">*</span></label>
                         <input type="date" class="form-control form-control-solid form-control-workpro border-0 one" placeholder="Masukkan tanggal selesai">
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-medium">Alasan <span class="text-danger">*</span></label>
-                        <textarea class="form-control form-control-solid form-control-workpro-textarea border-0 one" rows="3" placeholder="Masukkan alasan anda"></textarea>
+                        <textarea class="form-control form-control-solid form-control-workpro-textarea border-0 one" rows="3" placeholder="Masukkan alasan"></textarea>
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-medium">Bukti Pendukung <span class="text-danger">*</span></label>
@@ -73,7 +82,7 @@
                         <!-- Tab content -->
                         <div id="Pengajuan" class="tabcontent" style="display : block;">
                             <div class="row mt-2 mb-3">
-                                <p class="text-secondary">Total Lembur 4</p>
+                                <p class="text-secondary">Total Izin 4</p>
                             </div>
                             <div class="row mb-3 px-2">
                                 <div class="col-auto ps-0">
@@ -82,8 +91,8 @@
                                     </div>
                                 </div>
                                 <div class="col align-self-center ps-0">
-                                    <p class="fw-medium mb-0 size-14">Pukul : 22:00 - 01:00</p>
-                                    <p class="text-muted size-12">Lorem ipsum dolor...</p>
+                                    <p class="fw-medium mb-0 size-14">Sakit</p>
+                                    <p class="text-muted size-12">Lorem ipsum dolor</p>
                                 </div>
                                 <div class="col-auto align-self-center">
                                     <span class="badge rounded-pill fw-light" style="color: #FFB600; background: #FEF1CF;">25 Agt</span>
@@ -96,8 +105,8 @@
                                     </div>
                                 </div>
                                 <div class="col align-self-center ps-0">
-                                    <p class="fw-medium mb-0 size-14">Pukul : 23:00 - 03:00</p>
-                                    <p class="text-muted size-12">Lorem ipsum dolor...</p>
+                                    <p class="fw-medium mb-0 size-14">Izin meninggalkan</p>
+                                    <p class="text-muted size-12">Lorem ipsum dolor</p>
                                 </div>
                                 <div class="col-auto align-self-center">
                                     <span class="badge rounded-pill fw-light" style="color: #FFB600; background: #FEF1CF;">26 Agt</span>
@@ -110,8 +119,8 @@
                                     </div>
                                 </div>
                                 <div class="col align-self-center ps-0">
-                                    <p class="fw-medium mb-0 size-14">Pukul : 22:00 - 01:00</p>
-                                    <p class="text-muted size-12">Lorem ipsum dolor...</p>
+                                    <p class="fw-medium mb-0 size-14">Acara keluarga</p>
+                                    <p class="text-muted size-12">Lorem ipsum dolor</p>
                                 </div>
                                 <div class="col-auto align-self-center">
                                     <span class="badge rounded-pill fw-light" style="color: #FFB600; background: #FEF1CF;">27 Agt</span>
@@ -124,8 +133,8 @@
                                     </div>
                                 </div>
                                 <div class="col align-self-center ps-0">
-                                    <p class="fw-medium mb-0 size-14">Pukul : 23:00 - 03:00</p>
-                                    <p class="text-muted size-12">Lorem ipsum dolor...</p>
+                                    <p class="fw-medium mb-0 size-14">Dinas luar kota</p>
+                                    <p class="text-muted size-12">Lorem ipsum dolor</p>
                                 </div>
                                 <div class="col-auto align-self-center">
                                     <span class="badge rounded-pill fw-light" style="color: #FFB600; background: #FEF1CF;">28 Agt</span>
@@ -135,7 +144,7 @@
 
                         <div id="Disetujui" class="tabcontent">
                             <div class="row mt-2 mb-3">
-                                <p class="text-secondary">Total Lembur 3</p>
+                                <p class="text-secondary">Total izin 3</p>
                             </div>
                             <div class="row mb-3 px-2">
                                 <div class="col-auto ps-0">
@@ -144,8 +153,8 @@
                                     </div>
                                 </div>
                                 <div class="col align-self-center ps-0">
-                                    <p class="fw-medium mb-0 size-14">Pukul : 22:00 - 01:00</p>
-                                    <p class="text-muted size-12">Lorem ipsum dolor...</p>
+                                    <p class="fw-medium mb-0 size-14">Sakit</p>
+                                    <p class="text-muted size-12">Lorem ipsum dolor</p>
                                 </div>
                                 <div class="col-auto align-self-center">
                                     <span class="badge rounded-pill fw-light" style="color: #59CE8F; background: #E3FFE4;">25 Agt</span>
@@ -158,8 +167,8 @@
                                     </div>
                                 </div>
                                 <div class="col align-self-center ps-0">
-                                    <p class="fw-medium mb-0 size-14">Pukul : 23:00 - 03:00</p>
-                                    <p class="text-muted size-12">Lorem ipsum dolor...</p>
+                                    <p class="fw-medium mb-0 size-14">Izin meninggalkan</p>
+                                    <p class="text-muted size-12">Lorem ipsum dolor</p>
                                 </div>
                                 <div class="col-auto align-self-center">
                                     <span class="badge rounded-pill fw-light" style="color: #59CE8F; background: #E3FFE4;">26 Agt</span>
@@ -172,8 +181,8 @@
                                     </div>
                                 </div>
                                 <div class="col align-self-center ps-0">
-                                    <p class="fw-medium mb-0 size-14">Pukul : 22:00 - 01:00</p>
-                                    <p class="text-muted size-12">Lorem ipsum dolor...</p>
+                                    <p class="fw-medium mb-0 size-14">Dinas luar kota</p>
+                                    <p class="text-muted size-12">Lorem ipsum dolor</p>
                                 </div>
                                 <div class="col-auto align-self-center">
                                     <span class="badge rounded-pill fw-light" style="color: #59CE8F; background: #E3FFE4;">27 Agt</span>
@@ -183,7 +192,7 @@
 
                         <div id="Ditolak" class="tabcontent">
                             <div class="row mt-2 mb-3">
-                                <p class="text-secondary">Total Lembur 1</p>
+                                <p class="text-secondary">Total izin 1</p>
                             </div>
                             <div class="row mb-3 px-2">
                                 <div class="col-auto ps-0">
@@ -192,8 +201,8 @@
                                     </div>
                                 </div>
                                 <div class="col align-self-center ps-0">
-                                    <p class="fw-medium mb-0 size-14">Pukul : 22:00 - 01:00</p>
-                                    <p class="text-muted size-12">Lorem ipsum dolor...</p>
+                                    <p class="fw-medium mb-0 size-14">Acara keluarga</p>
+                                    <p class="text-muted size-12">Lorem ipsum dolor</p>
                                 </div>
                                 <div class="col-auto align-self-center">
                                     <span class="badge rounded-pill fw-light" style="color: #FF1111; background: #F8DBE0;">25 Agt</span>
