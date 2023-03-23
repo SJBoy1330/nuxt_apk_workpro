@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "C:/xampp/htdocs/nuxt_workpro/nuxt_apk_workpro/node_modules/nuxt/dist/app/entry.mjs": {
+  "C:/xampp/htdocs/nuxt_apk_workpro/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "C:/xampp/htdocs/nuxt_workpro/nuxt_apk_workpro/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "C:/xampp/htdocs/nuxt_apk_workpro/node_modules/nuxt/dist/app/entry.mjs"
   }
 }

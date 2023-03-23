@@ -127,7 +127,7 @@
             <h6 class="fw-medium">Informasi</h6>
         </div>
         <div class="col-auto align-self-center">
-            <NuxtLink to="#" class="small text-detail">Tampilkan semua</NuxtLink>
+            <NuxtLink to="/informasi" class="small text-detail">Tampilkan semua</NuxtLink>
         </div>
     </div>
     <div class="row">
