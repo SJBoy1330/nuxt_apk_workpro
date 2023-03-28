@@ -59,6 +59,9 @@ export default defineNuxtConfig({
         },
         {
           src: base_url + 'assets/js/script.js'
+        },
+        {
+          src: base_url + 'assets/js/page/editprofile.js'
         }
       ]
     }
