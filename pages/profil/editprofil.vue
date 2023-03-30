@@ -204,4 +204,11 @@
  </style>
  
  <script setup>
+    useHead({
+        script: [
+            {
+                src: '/assets/js/page/editprofile.js'
+            }
+        ]
+    })
  </script>
