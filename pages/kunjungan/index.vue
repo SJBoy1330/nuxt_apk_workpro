@@ -51,13 +51,9 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-medium">Tanda tangan <span class="text-danger"></span></label>
-                        <div class="flex-row">
-                            <div class="wrapper">
-                                <canvas id="signature-pad" width="400" height="200"></canvas>
-                            </div>
-                            <div class="clear-btn">
-                                <button id="clear"><span> Clear </span></button>
-                            </div>
+                        <div class="wrapper">
+                            <canvas id="signature-pad" width="400" height="200"></canvas>
+                            <button id="clear"><span> Hapus </span></button>
                         </div>
                     </div>
                 </div>
@@ -169,6 +165,9 @@ useHead({
     script: [
         {
             src: 'https://cdnjs.cloudflare.com/ajax/libs/signature_pad/1.3.5/signature_pad.min.js'
+        },
+        {
+            src: '/assets/js/page/signature.js'
         }
     ]
 })
