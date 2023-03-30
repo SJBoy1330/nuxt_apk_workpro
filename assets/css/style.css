@@ -16377,6 +16377,15 @@ p.nominal-reimbursment {
   background-color: #FEF1CF;
 }
 
+.card.notifikasi{
+  border-radius: 8x;
+  background-color: #FEF1CF;
+}
+
+.avatar.bg-notifikasi{
+  background-color: #FEF1CF;
+}
+
 .card.presensi {
   background-color: #328BE0;
   height: 165px;

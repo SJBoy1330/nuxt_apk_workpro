@@ -14,7 +14,7 @@
             <div class="col text-center"></div>
             <div class="col-auto">
                 <div class="me-2 mt-2">
-                    <NuxtLink to="#">
+                    <NuxtLink to="/notifikasi">
                         <i class="fa-regular fa-bell fs-3"></i>
                     </NuxtLink>
                 </div>
