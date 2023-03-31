@@ -104,7 +104,7 @@
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
                     </NuxtLink>
-                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-4">
+                    <NuxtLink to="/profil/ketentuanlayanan" class="row d-flex justify-content-center align-items-center mb-4">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-brands fa-teamspeak size-20"></i>
                         </div>
