@@ -93,7 +93,7 @@
                             <i class="fa-regular fa-chevron-right"></i>
                         </div>
                     </NuxtLink>
-                    <NuxtLink to="#" class="row d-flex justify-content-center align-items-center mb-4">
+                    <NuxtLink to="/profil/kebijakanprivasi" class="row d-flex justify-content-center align-items-center mb-4">
                         <div class="col-auto d-flex justify-content-center align-items-center">
                             <i class="fa-regular fa-shield size-20"></i>
                         </div>
